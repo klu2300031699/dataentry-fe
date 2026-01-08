@@ -69,7 +69,7 @@ function App() {
       if (response.ok) {
         const data = await response.json()
         console.log('Saved Data:', data)
-        setSuccessMessage('Data saved successfully!')
+        setSuccessMessage('Success')
         
         // Reset form
         setHallTicket('')
