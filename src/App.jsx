@@ -58,7 +58,7 @@ function App() {
 
     try {
       // Send data to backend
-      const response = await fetch('https://dataentry-be-production.up.railway.app/api/marks/save', {
+      const response = await fetch('https://entry-be-production.up.railway.app/api/marks/save', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
